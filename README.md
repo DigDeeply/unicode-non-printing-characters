@@ -17,4 +17,12 @@ So, what's non-printing characters, It all depends on you.
 
 Here is the list `characters.txt`, You cannot 'see' any character with your eyes, but it really exists.   
 
-And here is a demo for php `demo/php.php` to replacement the 'non-printing characters'.
+And here is a demo for php `demo/php.php` to replacement the 'non-printing characters'.    
+
+Also you can use a php regex to replace the Non-printing characters. demo file `demo/demo/preg_replace_all_non-printing.php`    
+```php
+<?php
+$str = preg_replace('/[[:^print:]]/', '', $string);
+```
+
+But it will also include \t, \r, \n and so on. See [http://www.pcre.org/pcre.txt](http://www.pcre.org/pcre.txt) , search 'Non-printing characters' for the full list.
