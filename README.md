@@ -15,4 +15,6 @@ In Windows, It looks like this:
 
 So, what's non-printing characters, It all depends on you.    
 
-Here is a demo for php `demo/php.php` to replacement the 'non-printing characters'.
+Here is the list `characters.txt`, You cannot 'see' any character with your eyes, but it really exists.   
+
+And here is a demo for php `demo/php.php` to replacement the 'non-printing characters'.
